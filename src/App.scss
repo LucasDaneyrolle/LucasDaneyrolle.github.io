@@ -1,0 +1,11 @@
+.body-content {
+  @apply h-screen w-screen bg-[linear-gradient(to_right_bottom,#482973,#35245a,#261e40,#1a1727,#0d0d0d)];
+
+  &__title{
+    @apply text-3xl font-bold text-gray-300 text-center;
+  }
+
+  &__main {
+    @apply text-gray-300 items-center justify-center h-4/5 flex;
+  }
+}
