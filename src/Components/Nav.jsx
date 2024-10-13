@@ -1,9 +1,4 @@
-const menuItems = [
-    "Qui suis-je ?",
-    "Mes projets",
-    "Mes expériences",
-    "Mes compétences"
-];
+import { menuItems } from '../ressources/menuItems';
 
 const Nav = ({active, setActive}) => {
     return (

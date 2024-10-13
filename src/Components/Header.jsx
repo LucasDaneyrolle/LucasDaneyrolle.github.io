@@ -4,9 +4,9 @@ import Logo_Linkedin from '/Logo-Linkedin.svg'
 
 const Header = () => {
   return (
-    <header className='border-b flex flex-row  p-4 items-center justify-between '>
+    <header className='border-b flex flex-row p-4 items-center justify-between'>
         <div className='flex items-center space-x-6'>
-          <div className="size-8 mb-4">
+          <div className="size-6 mb-4">
             <img src={Logo_L} alt="Logo Lucas"/>
           </div>
           <div className='text-2xl'>Portfolio</div>

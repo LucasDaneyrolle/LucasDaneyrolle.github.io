@@ -2,13 +2,10 @@
 
 Projet en cours de développement
 
-Date de début de projet : 14/01/2024
-
 ---
 
 ### Technos et outils utilisés : 
-- Excel
+- GSheets (Gestion de projet)
 - Figma
-- Tailwind
-- SASS
 - ReactJS 
+- Tailwind
