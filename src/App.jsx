@@ -9,6 +9,8 @@ import Skills from './components/Skills'
 import Chevron from '/Chevron.svg'
 
 import { menuItems } from './ressources/menuItems'
+import Experiences from './components/Experiences'
+import Projects from './components/Projects'
 
 
 function App() {
@@ -42,7 +44,9 @@ function App() {
       <div className='flex flex-row mt-2 h-[70vh] items-center justify-center'>
         <div className='text-8xl items-center ml-12 cursor-pointer' onClick={() => handleChangeLeftSection()}><img className='size-16 rotate-180' src={Chevron} alt="Chevron Left Icon" /></div>
           {active === "Qui suis-je ?" && <Presentation/>}
-          {active === "Mes compétences" && <Skills/>}
+          {active === "Mes compétences" && <Skills/>}          
+          {active === "Mes projets" && <Projects/>}
+          {active === "Mes expériences" && <Experiences/>}
         <div className='text-8xl mr-12 cursor-pointer' onClick={() => handleChangeRightSection()}><img className='size-16' src={Chevron} alt="Chevron Right Icon" /></div>
       </div>
     </div>
